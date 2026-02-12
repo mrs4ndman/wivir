@@ -5,6 +5,8 @@
 For now, just an idea. Hopefully I get some time and build the knowledge to make
 it into a full-fledged network manager for Linux through the terminal :)
 
+---
+
 ## Dependencies / Requirements:
 - `NetworkManager` as a network daemon.
 - A Linux system.
@@ -31,8 +33,8 @@ cargo build
   cargo build --release
   ```
 
-3. Move the executable found in `target/debug/presto` (or
-   `target/release/presto`) to a directory that is included in your `$PATH`
+3. Move the executable found in `target/debug/wivir` (or
+   `target/release/wivir`) to a directory that is included in your `$PATH`
    environment variable (check your path inclusion with the command `echo
    $PATH`):
 
